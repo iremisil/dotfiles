@@ -1,0 +1,1 @@
+sublf() { subl $(fzf --height 40%) }
