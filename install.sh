@@ -6,6 +6,8 @@ brew update
 
 brew tap caskroom/cask
 
+brew cask install java
+
 brew install git
 brew install zsh 
 brew install zsh-completions
@@ -33,8 +35,6 @@ brew install awscli
 dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 curl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/themes/half-life.zsh-theme > ~/.oh-my-zsh/custom/themes/half-life.zsh-theme
-
-brew cask install java
 
 brew cask install iterm2
 brew cask install sublime-text
