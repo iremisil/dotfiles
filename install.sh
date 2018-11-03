@@ -1,6 +1,7 @@
 sudo -v
 
 yes '' | /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
 
 brew tap caskroom/cask
 
@@ -25,6 +26,8 @@ brew install vagrant-completion
 brew install stow
 brew install docker
 brew install tree
+brew install node
+brew install awscli
 
 dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
