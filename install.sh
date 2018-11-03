@@ -10,9 +10,10 @@ sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 brew cask install iterm2
-mv ../iterm/* $HOME/Library/Preferences
+mv iterm/* $HOME/Library/Preferences
 
 brew cask install spectacle ##import config
+mv spectacle/Shortcuts $HOME/Library/Application Support/Spectacle
 
 brew cask install sublime-text ##import config
 
