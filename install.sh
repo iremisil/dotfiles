@@ -54,10 +54,13 @@ brew cask install spectacle
 brew upgrade 
 brew update
 
-cp -rf iterm ~/Library/Preferences
 cp -rf spectacle/Shortcuts ~/Library/Application Support/Spectacle
 cp -rf bitbarplugins ~/Documents/
 cp -rf karabiner ~/.config/
+
+#iterm preferences
+defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/dotfiles/iterm"
+defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 
 set -x
 
