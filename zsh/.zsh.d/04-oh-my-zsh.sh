@@ -1,8 +1,4 @@
-ZSH_THEME="powerlevel9k/powerlevel9k"
-
-DISABLE_LS_COLORS="true"
-
-plugins=(git sublime httpie)
+plugins=(git httpie)
 
 if [[ "$OSTYPE" = darwin* ]]; then
   plugins=(osx $plugins)
@@ -10,7 +6,6 @@ fi
 
 DISABLE_UPDATE_PROMPT=true
 
-ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="half-life"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator context dir vcs)
@@ -25,4 +20,6 @@ POWERLEVEL9K_STATUS_ERROR_FOREGROUND="black"
 
 PROMPT=$'%{$purple%}%n%{$reset_color%} in %{$limegreen%}%~%{$reset_color%}$vcs_info_msg_0_%{$orange%} λ%{$reset_color%} '
 
+ZSH="$HOME/.oh-my-zsh"
+fpath=($ZSH/functions $ZSH/completions $fpath)
 source $ZSH/oh-my-zsh.sh
