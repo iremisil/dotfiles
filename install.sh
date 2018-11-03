@@ -15,7 +15,7 @@ mv iterm/* $HOME/Library/Preferences
 brew cask install spectacle ##import config
 mv spectacle/Shortcuts $HOME/Library/Application Support/Spectacle
 
-brew cask install sublime-text ##import config
+brew cask install sublime-text
 
 brew cask install google-chrome
 
