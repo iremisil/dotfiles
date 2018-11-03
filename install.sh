@@ -8,6 +8,7 @@ brew install git
 brew install zsh 
 brew install zsh-completions
 brew install fasd
+brew install autojump
 brew install fzf
 brew install the_silver_searcher
 brew install bat
@@ -43,6 +44,9 @@ brew cask install flycut
 brew cask install typora
 brew cask install tunnelblick
 brew cask install spectacle
+
+brew upgrade 
+brew update
 
 cp -rf iterm/* ~/Library/Preferences
 cp -rf spectacle/Shortcuts ~/Library/Application Support/Spectacle
