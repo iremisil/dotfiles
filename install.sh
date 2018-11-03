@@ -9,6 +9,7 @@ brew install zsh
 brew install zsh-completions
 brew install fasd
 brew install autojump
+
 brew install fzf
 brew install the_silver_searcher
 brew install bat
@@ -23,6 +24,7 @@ brew install vagrant
 brew install vagrant-completion
 brew install stow
 brew install docker
+brew install tree
 
 dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -48,7 +50,7 @@ brew cask install spectacle
 brew upgrade 
 brew update
 
-cp -rf iterm/* ~/Library/Preferences
+cp -rf iterm ~/Library/Preferences
 cp -rf spectacle/Shortcuts ~/Library/Application Support/Spectacle
 cp -rf bitbarplugins ~/Documents/
 cp -rf karabiner ~/.config/
