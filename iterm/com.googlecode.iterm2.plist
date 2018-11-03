@@ -277,7 +277,7 @@
 			<key>Blur</key>
 			<true/>
 			<key>Blur Radius</key>
-			<real>7.3218412912436541</real>
+			<real>5.7009141021573599</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -717,7 +717,7 @@
 			<key>Thin Strokes</key>
 			<integer>4</integer>
 			<key>Transparency</key>
-			<real>0.23679608185279188</real>
+			<real>0.060604378172588833</real>
 			<key>Unlimited Scrollback</key>
 			<false/>
 			<key>Use Bold Font</key>
@@ -2102,7 +2102,7 @@
 	<key>ShowPaneTitles</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.18503605769230769</real>
+	<real>0.42727363782051286</real>
 	<key>TabViewType</key>
 	<integer>0</integer>
 	<key>ToolbeltTools</key>
