@@ -15,14 +15,12 @@ mv iterm/* $HOME/Library/Preferences
 brew cask install spectacle ##import config
 cp spectacle/Shortcuts $HOME/Library/Application Support/Spectacle
 
-brew cask install sublime-text
-brew cask install google-chrome
-brew cask install intellij-idea 
+brew cask install sublime-text google-chrome intellij-idea calibre
 
 brew cask install bitbar 
 cp bitbarplugins $HOME/Documents/
 
-brew cask install calibre ##import config
+brew cask install calibre
 
 brew cask install karabiner
 
