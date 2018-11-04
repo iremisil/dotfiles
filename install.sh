@@ -28,7 +28,6 @@ brew install youtube-dl
 brew install vagrant
 brew install vagrant-completion
 brew install stow
-brew install docker
 brew install tree
 brew install node
 brew install awscli
@@ -52,6 +51,7 @@ brew cask install flycut
 brew cask install typora
 brew cask install tunnelblick
 brew cask install spectacle
+brew cask install docker
 
 brew upgrade 
 brew update
