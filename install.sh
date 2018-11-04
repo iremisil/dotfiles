@@ -8,13 +8,13 @@ brew tap caskroom/cask
 
 brew cask install java
 
+brew install coreutils
 brew install git
 brew install zsh 
 brew install zsh-completions
 brew install fasd
 brew install autojump
 
-brew install coreutils
 brew install fzf
 brew install the_silver_searcher
 brew install bat
