@@ -14,6 +14,7 @@ brew install zsh-completions
 brew install fasd
 brew install autojump
 
+brew install coreutils
 brew install fzf
 brew install the_silver_searcher
 brew install bat
@@ -42,6 +43,7 @@ brew cask install google-chrome
 brew cask install intellij-idea
 brew cask install calibre
 brew cask install karabiner
+brew cask install karabiner-Elements
 brew cask install bitbar
 brew cask install postman
 brew cask install spotify
