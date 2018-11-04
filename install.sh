@@ -8,7 +8,7 @@ brew tap caskroom/cask
 
 brew cask install java
 
-brew install coreutils
+brew install coreutils	
 brew install git
 brew install zsh 
 brew install zsh-completions
