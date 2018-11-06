@@ -68,3 +68,5 @@ set -x
 
 stow -t ~ git
 stow -t ~ zsh
+
+jenv rehash
