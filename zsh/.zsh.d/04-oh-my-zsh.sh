@@ -22,4 +22,4 @@ POWERLEVEL9K_STATUS_ERROR_FOREGROUND="black"
 fpath=($ZSH/functions $ZSH/completions $fpath)
 
 source $ZSH/oh-my-zsh.sh
-PROMPT=$'%{$purple%}%n%{$reset_color%} in %{$limegreen%}%~%{$reset_color%}$vcs_info_msg_0_%{$orange%} λ%{$reset_color%} '
+PROMPT=$'%{$limegreen%}%~%{$reset_color%}$vcs_info_msg_0_%{$orange%} λ%{$reset_color%} '
