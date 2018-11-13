@@ -53,8 +53,8 @@ brew cask install tunnelblick
 brew cask install spectacle
 brew cask install docker
 
-brew upgrade 
 brew update
+brew upgrade 
 
 cp -rf spectacle/Shortcuts ~/Library/Application Support/Spectacle
 cp -rf bitbarplugins ~/Documents/
