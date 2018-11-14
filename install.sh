@@ -35,6 +35,7 @@ brew install stow
 brew install tree
 brew install node
 brew install awscli
+brew install go
 
 brew cask install iterm2
 brew cask install sublime-text
