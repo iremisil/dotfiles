@@ -52,6 +52,7 @@ brew cask install typora
 brew cask install tunnelblick
 brew cask install spectacle
 brew cask install docker
+brew cask install send-to-kindle
 
 brew update
 brew upgrade 
