@@ -66,6 +66,10 @@ cp -rf karabiner ~/.config/
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/dotfiles/iterm"
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 
+#ssh key generation
+mkdir ~/.ssh
+ssh-keygen -t rsa -b 4096  -N "" -f ~/.ssh/id_rsa1
+
 set -x
 
 stow -t ~ git
