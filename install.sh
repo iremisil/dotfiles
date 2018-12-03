@@ -76,3 +76,5 @@ stow -t ~ git
 stow -t ~ zsh
 
 jenv rehash
+
+sudo shutdown -r now
