@@ -70,7 +70,13 @@ defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 
 #ssh key generation
 mkdir ~/.ssh
-ssh-keygen -t rsa -b 4096  -N "" -f ~/.ssh/id_rsa1
+ssh-keygen -t rsa -b 4096  -N "" -f ~/.ssh/id_rsa
+eval "$(ssh-agent -s)"
+echo "Host *
+ AddKeysToAgent yes
+ UseKeychain yes
+ IdentityFile ~/.ssh/id_rsa" > ~/.ssh/config
+ssh-add -K ~/.ssh/id_rsa
 
 set -x
 
