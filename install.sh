@@ -15,6 +15,7 @@ dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 curl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/themes/half-life.zsh-theme > ~/.oh-my-zsh/custom/themes/half-life.zsh-theme
 
+
 brew install coreutils	
 brew install git
 brew install fasd
@@ -36,6 +37,7 @@ brew install tree
 brew install node
 brew install awscli
 brew install go
+brew install diff-so-fancy
 
 brew cask install iterm2
 brew cask install sublime-text

@@ -22,7 +22,7 @@
 	gut = !exec git
 
 [core]
-    pager = less
+    pager = diff-so-fancy | less --tabs=4 -RFX    
     editor = vim
     whitespace = cr-at-eol
 	excludesfile = ~/.gitignore
@@ -30,6 +30,19 @@
 [color]
     ui = true
 
+[color "diff"]
+    meta       = "yellow"
+    frag       = "magenta bold"
+    commit     = "yellow bold"
+    old        = "red bold"
+    new        = "green bold"
+    whitespace = "red reverse"
+
+[color "diff"]
+    oldNormal    = "red bold"
+    oldHighlight = "red bold 52"
+    newNormal    = "green bold"
+    newHighlight = "green bold 22"
+
 [push]
     default = current
-
