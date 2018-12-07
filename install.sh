@@ -78,6 +78,8 @@ echo "Host *
  IdentityFile ~/.ssh/id_rsa" > ~/.ssh/config
 ssh-add -K ~/.ssh/id_rsa
 
+mkdir ~/Workspace
+
 set -x
 
 stow -t ~ git
