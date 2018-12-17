@@ -79,6 +79,7 @@ echo "Host *
 ssh-add -K ~/.ssh/id_rsa
 
 mkdir ~/Workspace
+mkdir ~/Workspace/go
 
 set -x
 
