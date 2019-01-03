@@ -89,9 +89,9 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>271 283 918 452 0 0 1440 900 </string>
+	<string>271 257 1016 512 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>723 0 714 900 0 0 1440 900 </string>
+	<string>0 0 1440 900 0 0 1440 900 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -353,7 +353,7 @@
 			<key>HotKey Window Animates</key>
 			<true/>
 			<key>HotKey Window AutoHides</key>
-			<true/>
+			<false/>
 			<key>HotKey Window Dock Click Action</key>
 			<integer>0</integer>
 			<key>HotKey Window Floats</key>
@@ -742,6 +742,8 @@
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>566494702.39038205</real>
 	<key>OpenTmuxWindowsIn</key>
@@ -796,7 +798,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-12-14T17:00:43Z</date>
+	<date>2018-12-22T07:30:16Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>

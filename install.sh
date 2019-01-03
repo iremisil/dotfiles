@@ -5,8 +5,10 @@ yes '' | /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebr
 brew update
 
 brew tap caskroom/cask
+brew tap caskroom/versions
 
 brew cask install java
+brew cask install java8
 
 brew install zsh 
 brew install zsh-completions
@@ -15,28 +17,19 @@ dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 curl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/themes/half-life.zsh-theme > ~/.oh-my-zsh/custom/themes/half-life.zsh-theme
 
-
 brew install coreutils	
 brew install git
 brew install fasd
 brew install autojump
-brew install fzf
 brew install the_silver_searcher
 brew install bat
 brew install httpie
 brew install jenv
 brew install jq
 brew install magic-wormhole
-brew install sbt
 brew install tig
-brew install youtube-dl
-brew install vagrant
-brew install vagrant-completion
 brew install stow
 brew install tree
-brew install node
-brew install awscli
-brew install go
 brew install diff-so-fancy
 
 brew cask install iterm2
@@ -49,13 +42,10 @@ brew cask install karabiner-Elements
 brew cask install bitbar
 brew cask install postman
 brew cask install spotify
-brew cask install telegram
 brew cask install flycut
 brew cask install typora
-brew cask install tunnelblick
 brew cask install spectacle
 brew cask install docker
-brew cask install send-to-kindle
 
 brew update
 brew upgrade 
@@ -79,7 +69,6 @@ echo "Host *
 ssh-add -K ~/.ssh/id_rsa
 
 mkdir ~/Workspace
-mkdir ~/Workspace/go
 
 set -x
 
